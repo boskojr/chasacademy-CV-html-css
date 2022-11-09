@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+background-color: rgb(6, 35, 6);
+width: 100%;
+}
+
+.heads{
+height: 15%;
+width: 100%;
+background-color:rgb(219, 212, 212)
+}
+
+#activepage {
+    color: green;
+}
+
+.navlist {
+    height: 15%;
+    width: 100%;
+display: flex;
+justify-content: space-around;
+align-content: center;
+list-style-type: none;
+text-decoration-line: none;
+flex-direction: row;
+
+
+}
+
+li {
+    
+    margin-top: 3%;
+    
+}
+
+.links{
+margin-top: 100px;
+}
+
+.navlist a{
+    text-decoration: none;
+    color: rgb(6, 35, 6);
+
+}
+
+.navlist a:hover {
+    text-decoration-line: underline;
+    color: green
+
+    
+}
+
+section{
+
+height: 70%;
+width: 100%;
+}
+
+
+.INFO {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(6, 35, 6);
+    justify-content: space-around;
+    display: flex;
+    padding-top: 2%;
+
+
+}
+
+.cvbild {
+    border-radius: 10%;
+    width: 20%;
+    border: 5px black solid
+}
+.chas{
+    border-radius: 100%;
+    width: 20%;
+    border: 5px black solid
+}
+
+.sss{
+
+    border-radius: 10%;
+    width: 20%;
+    border: 5px white solid
+    
+}
+
+.celsius{
+    border-radius: 10%;
+    width: 20%;
+    border: 5px black solid
+}
+
+.Expo{
+
+    background-color: rgb(6, 35, 6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+
+.me{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding-left: 2.5%;
+}
+
+.school{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.hobby{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.work{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+.mains {
+    height: 50%;
+    width: 100%;
+    background-color: rgb(6, 35, 6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin-top:5%;
+}
+
+.bosko{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+
+}
+
+.chass{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+    border-radius: 20%;
+    color: white;
+}
+
+.sssfot{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+    color: white;
+}
+
+.celle{
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/* .foot {
+height: 15%;
+width: 100%;
+background-color: blue;
+} */
+
+/* portfolio */
+
+.homes{
+    height: 85%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    
+    
+}
+
+.Hinfo{
+    height: 30%;
+    width: 20%;
+    background-color: brown;
+    border-radius: 10%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Hmain{
+    height: 30%;
+    width: 20%;
+    background-color: white;
+    border-radius: 10%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hom{
+    height: 30%;
+    width: 20%;
+    background-color: blue;
+    border-radius: 10%;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    color: white;
+    background-color: black;
+    
+}
+
+button:hover{
+    background-color: green;
+}
+
+/* home */
+
+.home1{
+    background-image:url(gcbild.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85%;
+}
+
+/* about me */
+
+.amsection{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+
+    body {/* height: auto; */
+        margin: 0;
+        padding: 0;
+      background-color: rgb(6, 35, 6);
+      background-position: center;
+      
+ 
+    }
+    .home1{
+        margin-bottom: 50%;
+    }
+
+    .navlist{
+        display: contents;
+        text-align: center;
+    }
+
+    .heads{
+        
+        height: auto;
+        background-color:rgb(219, 212, 212);
+
+    }
+
+    section{ 
+        font-size: x-small;
+        display: list-item;
+        flex-direction: row;
+     justify-items: center;
+     align-content: center;
+    }
+
+  
+
+    .INFO{
+        height: auto;
+display: flex;
+justify-items: center;
+align-items: center;
+align-content: center;
+justify-content: space-between;
+flex-direction: column
+    }
+
+    .mains{
+align-items: center;
+flex-direction: column;
+justify-content: space-between;
+}
+
+
+
+.homes{
+ flex-direction: column;
+ justify-content: space-around;
+}
+
+.Hmain,.Hinfo, .hom{
+    width: 40%;
+    height: 20%;
+    border: 5px black solid;
+
+}
+
+
+
+
+.amsection{
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+  }
