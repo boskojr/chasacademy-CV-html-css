@@ -1,0 +1,29 @@
+{
+"jobs" : [
+
+{ 
+    "Heading" : "ME",
+    "Year" : "Bosko JR Derikonja ",
+    "Titel" : "27 År",
+    "Location" : "Stockholm"
+},
+{
+    "Heading" : "Chasacademy",
+    "Year" : "2022-Present",
+    "Titel" : "Fullstack Engenier .NET",
+    "Location" : "Stockholm"
+},
+{
+    "Heading" : "SSS FOOTBALL",
+    "Year" : "2007-Present",
+    "Titel" : "CO Founder/ Headcoach",
+    "Location" : "Stockholm"
+},
+{
+    "Heading" : "Celsius Energy",
+    "Year" : "2021-Present",
+    "Titel" : "Sales representiv",
+    "Location" : "South Stockholm"
+}
+]
+}
